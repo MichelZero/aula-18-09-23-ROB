@@ -32,3 +32,7 @@ tupla06 = (1,)
 tupla07 = (1)
 print(tupla06)
 print(tupla07)
+
+tupla08 = tuple(range(6))
+print(tupla08)
+print(tupla08[2:4])
