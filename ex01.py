@@ -36,3 +36,10 @@ print(tupla07)
 tupla08 = tuple(range(6))
 print(tupla08)
 print(tupla08[2:4])
+
+tupla09 = ('a', [1, 5], 'c')
+tupla10 = tupla09[::]
+print(tupla09)
+print(tupla10)
+tupla10[1][1] = 4
+print(tupla09)
